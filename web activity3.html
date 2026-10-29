@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Reservation</title>
+    <link rel="stylesheet" href="18th activity.css">
+</head>
+<body>
+
+<header>
+    <h1>Dream Stay Hotel</h1>
+    <p>Comfort, Luxury and Happiness</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#rooms">Rooms</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#booking">Reservation</a>
+</nav>
+
+<section id="home" class="welcome">
+    <h2>Welcome to Dream Stay</h2>
+    <p>Enjoy a comfortable stay at affordable prices.</p>
+    <a href="#booking" class="btn">Book Now</a>
+</section>
+
+<section id="rooms">
+    <h2>Our Room Categories</h2>
+
+    <div class="room-container">
+
+        <div class="room-card">
+            <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=600"
+                 alt="Standard Room">
+            <h3>Standard Room</h3>
+            <p>Comfortable room for two guests.</p>
+            <h4>₹2,000 / night</h4>
+        </div>
+
+        <div class="room-card">
+            <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?w=600"
+                 alt="Deluxe Room">
+            <h3>Deluxe Room</h3>
+            <p>Spacious room with modern interiors.</p>
+            <h4>₹3,500 / night</h4>
+        </div>
+
+        <div class="room-card">
+            <img src="https://images.unsplash.com/photo-1611892440504-0a2c2c4b8e6e?w=600"
+                 alt="Luxury Suite">
+            <h3>Luxury Suite</h3>
+            <p>Premium room with luxurious comfort.</p>
+            <h4>₹5,000 / night</h4>
+        </div>
+
+    </div>
+</section>
+
+<section id="facilities">
+    <h2>Hotel Facilities</h2>
+    <p>Free Wi-Fi | Swimming Pool | Restaurant |
+       Room Service | Parking | Air Conditioning</p>
+</section>
+
+<section id="booking">
+    <h2>Book Your Room</h2>
+
+    <form>
+        <label>Full Name:</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Room Category:</label>
+        <select required>
+            <option value="">Select a room</option>
+            <option>Standard Room</option>
+            <option>Deluxe Room</option>
+            <option>Luxury Suite</option>
+        </select>
+
+        <label>Check-in Date:</label>
+        <input type="date" required>
+
+        <label>Check-out Date:</label>
+        <input type="date" required>
+
+        <label>Number of Guests:</label>
+        <input type="number" min="1" placeholder="Enter guests" required>
+
+        <button type="submit">Reserve Now</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Dream Stay Hotel | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
