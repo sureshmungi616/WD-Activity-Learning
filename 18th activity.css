@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+header {
+    background-color: #123456;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color: #087e8b;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.welcome {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #d9edf2;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #087e8b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: #123456;
+}
+
+.room-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.room-card {
+    background-color: white;
+    width: 280px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px #ccc;
+    padding-bottom: 15px;
+}
+
+.room-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.room-card h4 {
+    color: #087e8b;
+}
+
+#facilities {
+    text-align: center;
+    padding: 25px;
+    background-color: #e1f2f3;
+}
+
+form {
+    background-color: white;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #ccc;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #087e8b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #123456;
+}
+
+footer {
+    background-color: #123456;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .room-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .room-card {
+        width: 90%;
+    }
+
+    form {
+        margin: 20px;
+    }
+}
